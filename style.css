@@ -1,0 +1,616 @@
+body{
+    background-image: url("backgrounddesert.jpg");
+    position: fixed;  
+}
+
+
+.container1{
+    position:relative;
+    top:2vw;
+    left:6vw;
+    cursor: pointer;
+}
+
+
+#li1{
+    color: white;
+    font-size: 1.3vw;
+    text-decoration: none;
+    position:relative;
+    margin-right: 3vw;
+    top:-4vw;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:65vw;
+}
+
+#hum1{
+    color: white;
+    font-size: 1.3;
+    position: relative;
+    top:-4.5vw;
+    border-radius: 50%;
+    width:2.6vw;
+    height:2vw;
+    background-color:#DDDDDD;
+    text-align: center;
+    padding-top: 0.7vw;
+    cursor: pointer;
+}
+
+#p1{
+    color: white;
+    font-size: 6vw;
+    font-weight: bolder;
+}
+
+#p2{
+    color: white;
+    font-size:1.3vw;
+    position: relative;
+    top:-5vw;
+    line-height:2vw;
+}
+
+#p3{
+    color: white;
+    font-size:1.3vw;
+    position: relative;
+    top:-5.5vw;
+}
+
+.container3{
+    position: relative;
+    left:6vw;
+    top:7vw;
+}
+
+#p4{
+    border:2px;
+    background-color:white;
+    border-radius:22px;
+    width:14vw;
+    height: 2.2vw;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    left: 6vw;
+    top:2vw;
+    padding-top:1vw;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:-32vw;
+    left:55vw;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -30vw;
+    left:55vw;
+}
+
+#pic1{
+    background-image: url("pic-1.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    right:5vw;
+    border-radius: 15px;
+    height:300px;
+    width:280px;
+    cursor: pointer;
+    transition-duration:0.4s;   
+}
+
+#pic1:hover{
+    transform:translateY(10px)
+}
+
+#pic2{
+    background-image: url("pic-2.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+    height:300px;
+    width:280px;
+    right:12vw;
+    cursor: pointer;
+    transition-duration:0.4s;   
+}
+
+#pic2:hover{
+    transform:translateY(10px)
+}
+
+#pic3{
+    background-image: url("pic-3.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    right:5vw;
+    color: white;
+    border-radius: 15px;
+    height:300px;
+    width:280px;
+    cursor: pointer;
+    transition-duration:0.4s;   
+}
+
+#pic3:hover{
+    transform:translateY(10px)
+}
+
+
+#pic4{
+    background-image: url("pic-4.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    border-radius:15px;
+    height:300px;
+    width:280px;
+    cursor: pointer;
+    transition-duration:0.4s;   
+}
+
+#pic4:hover{
+    transform:translateY(10px)
+}
+
+#p5{
+    font-size:1.5vw;
+    padding-left:1vw;
+}
+
+#p6{
+    padding-left: 1vw;
+    line-height: 2vw;
+    padding-left: 1vw;
+}
+
+@media screen and (max-width:856px){
+
+    body{
+        background-image: url("backgrounddesert.jpg");
+        position: absolute;
+    }
+
+    .container4{
+        height: auto;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .container5{
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        
+    }
+
+    .res{
+        display: block;
+        justify-content: flex-start;
+        position: relative;
+        right:0;
+        justify-content: center;
+        padding-bottom: -5vw;
+    }
+
+    #p4{
+        border:2px;
+        background-color:white;
+        border-radius:22px;
+        width:20vw;
+        height: 2.2vw;
+        text-align: center;
+        font-weight: bolder;
+        position: relative;
+        left: 6vw;
+        top:-10vw;
+        padding-top:1vw;
+        padding-bottom:1.5vw;
+    }
+
+    .container1{
+        position:relative;
+        top:2vw;
+        width:100%;
+        height:100%;
+        cursor: pointer;
+    }
+
+    .container3{
+        position: relative;
+        left:6vw;
+        top:-5vw
+    }
+    
+    #p1{
+        color: white;
+        font-size: 6vw;
+        font-weight: bolder;
+    }
+    
+    #p2{
+        color: white;
+        font-size:2.5vw;
+        position: relative;
+        top:-5vw;
+        line-height:4vw;
+    }
+    
+    #p3{
+        color: white;
+        font-size:2.5vw;
+        position: relative;
+        top:-5.5vw;
+    }
+
+    #li1{
+        color: white;
+        font-size: 2vw;
+        text-decoration:none;
+        position:relative;
+        margin-right:3vw;
+        top:-2vw;
+    }
+    
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left:60vw;
+    }
+
+    #hum1{
+        color:gray;
+        font-size: 1.3;
+        position: relative;
+        top:-2.3vw;
+        border-radius: 50%;
+        width:3.5vw;
+        height:2vw;
+        background-color:#DDDDDD;
+        text-align: center;
+        padding-top: 0.7vw;
+        cursor: pointer;
+        padding-bottom:0.8vw;
+    }
+
+    .container4{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top:-5vw;
+    }
+    
+    .container5{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top:-25vw;
+
+    }
+
+    #pic1{
+        background-image: url("pic-1.png");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        position: relative;
+        bottom:6vw;
+        top:-2vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic1:hover{
+        transform:translateY(10px)
+    }
+    
+    #pic2{
+        background-image: url("pic-2.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        color: white;
+        position: relative;
+        top:3vw;
+        bottom:6vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic2:hover{
+        transform:translateY(10px)
+    }
+    
+    #pic3{
+        background-image: url("pic-3.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        position: relative;
+        color: white;
+        bottom:6vw;
+        top:30vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic3:hover{
+        transform:translateY(10px)
+    }
+
+    #pic4{
+        background-image: url("pic-4.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        color: white;
+        position: relative;
+        bottom:6vw;
+        top:35vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic4:hover{
+        transform:translateY(10px)
+    }
+
+    #p5{
+        font-size:2vw;
+        padding-left:1vw;
+        font-weight: bolder;
+    }
+    
+    #p6{
+        padding-left: 1vw;
+    }
+
+    br{
+        display: none;
+    }
+}
+
+@media screen and (max-width:360px){
+
+    body{
+        background-image: url("backgrounddesert.jpg");
+        position:sticky;
+    }
+    .container4{
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    
+    .container5{
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        
+    }
+
+    .res{
+        display: block;
+        justify-content: flex-start;
+        position: relative;
+        right:1vw;
+        padding-bottom: -5vw;
+    }
+
+    #p4{
+        border:2px;
+        background-color:white;
+        border-radius:22px;
+        width:26vw;
+        height: 4vw;
+        text-align: center;
+        font-weight: bolder;
+        position: relative;
+        left: 6vw;
+        top:-10vw;
+        padding-top:1vw;
+        padding-bottom:2vw;
+    }
+
+    .container1{
+        position:relative;
+        top:2vw;
+        width:100%;
+        height:100%;
+        cursor: pointer;
+    }
+
+    .container3{
+        position: relative;
+        left:6vw;
+        top:-5vw
+    }
+    
+    #p1{
+        color: white;
+        font-size: 6vw;
+        font-weight: bolder;
+    }
+    
+    #p2{
+        color: white;
+        font-size:2.5vw;
+        position: relative;
+        top:-5vw;
+        line-height:4vw;
+    }
+    
+    #p3{
+        color: white;
+        font-size:2.5vw;
+        position: relative;
+        top:-5.5vw;
+    }
+
+    #li1{
+        color: white;
+        font-size: 2vw;
+        text-decoration:none;
+        position:relative;
+        margin-right:3vw;
+        top:-2vw;
+    }
+    
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left:60vw;
+    }
+
+    #hum1{
+        color: white;
+        font-size: 1.3;
+        position: relative;
+        top:-2.3vw;
+        border-radius: 50%;
+        width:8vw;
+        height:6vw;
+        background-color:#DDDDDD;
+        text-align: center;
+        padding-top: 1vw;
+        cursor: pointer;
+        padding-bottom:0.8vw;
+    }
+
+    .container4{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top:-5vw;
+    }
+    
+    .container5{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        top:-25vw;
+
+    }
+
+    #pic1{
+        background-image: url("pic-1.png");
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        position: relative;
+        bottom:6vw;
+        top:-2vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic1:hover{
+        transform:translateY(10px)
+    }
+    
+    #pic2{
+        background-image: url("pic-2.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        color: white;
+        position: relative;
+        top:3vw;
+        bottom:6vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic2:hover{
+        transform:translateY(10px)
+    }
+    
+    #pic3{
+        background-image: url("pic-3.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        position: relative;
+        color: white;
+        bottom:6vw;
+        top:30vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic3:hover{
+        transform:translateY(10px)
+    }
+
+    #pic4{
+        background-image: url("pic-4.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        color: white;
+        position: relative;
+        bottom:6vw;
+        top:35vw;
+        width:80%;
+        left:-40vw;
+        cursor: pointer;
+        transition-duration:0.4s;
+    }
+
+    #pic4:hover{
+        transform:translateY(10px)
+    }
+
+    #p5{
+        font-size:4vw;
+        padding-left:1vw;
+        font-weight: bolder;
+    }
+    
+    #p6{
+        padding-left: 1vw;
+        line-height:4vw;
+    }
+}
